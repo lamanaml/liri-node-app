@@ -87,35 +87,29 @@ function movieThis(input) {
     } else {
         axios.get("http://www.omdbapi.com/?apikey="+ omdb + "&t=" + input)
         .then(function(response) {
-         
             
             var movieResults = response.data
-            
+            var title = movieResults.Title;
+            var year = movieResults.Year;
+            var imdb = movieResults.imdbRating;
+            var rottenTomatoes = movieResults.RottenTomatoes
             var country = movieResults.Country;
             var language = movieResults.Language;
             var plot = movieResults.Plot;
             var actors = movieResults.Actors;
-
-            if(movieResults.Ratings.length <= 1) {
-                console.log("------------");
-                console.log("Title: " + title);
-                console.log("Year Of Production: " + year);
-                console.log("IMDB Rating: " + imdb);
-                console.log("Unfortunately, this film has not been rated by Rotten Tomatoes.");
-                console.log("Filming Location: " + country);
-                console.log("Language: " + language);
-                console.log("Plot: " + plot);
-                console.log("Featured Actors: " + actors);
-            } 
-                fs.appendFile("log.txt", movieResults , function(err) {
+            
+            var newMovieResults = "------------" + "\nTitle: " + title + "\nYear Of Production: " + year + 
+                "\nIMDB Rating: " + imdb + "\nRotten Tomatoes Rating: " + rottenTomatoes + "\nFilming Location: " + country + "\nLanguage: " + language + "\nPlot: " + plot + "\nFeatured \nActors: " + actors;             
+                console.log(newMovieResults);
+                fs.appendFile("log.txt", newMovieResults , function(err) {
                     if(err) {
                     return console.log(err);
                     }
                 })
-            }
-        })
+            })
+        }
     }
-}
+
 
 
 function doThis(input) {

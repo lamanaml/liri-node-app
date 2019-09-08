@@ -33,4 +33,68 @@ Date of the Event: 2019-09-12T20:30:00------------
 Artist(s): Adele
 Song: Hello
 Album: 25
-Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=34fec81707b24dbf9ffa3f564da328a3
+Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=34fec81707b24dbf9ffa3f564da328a3------------Title: SpidermanYear Of Production: 1990IMDB Rating: undefinedRotten Tomatoes Rating: undefinedFilming Location: SwitzerlandLanguage: GermanPlot: N/AFeatured Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+MDB Rating: undefined
+Rotten Tomatoes Rating: undefined
+Filming 
+Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+MDB Rating: undefined
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+MDB Rating: undefined
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+MDB Rating: undefined
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+IMDB Rating: 5.7
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+IMDB Rating: 5.7
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A------------
+Title: Spiderman
+Year Of Production: 1990
+IMDB Rating: 5.7
+Rotten Tomatoes Rating: undefined
+Filming Location: Switzerland
+Language: German
+Plot: N/A
+Featured 
+Actors: N/A
