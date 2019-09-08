@@ -87,14 +87,15 @@ function movieThis(input) {
     } else {
         axios.get("http://www.omdbapi.com/?apikey="+ omdb + "&t=" + input)
         .then(function(response) {
-             
+         
+            
             var movieResults = response.data
             
             var country = movieResults.Country;
             var language = movieResults.Language;
             var plot = movieResults.Plot;
             var actors = movieResults.Actors;
-            // Conditional for the case in which Rotten Tomatoes data does not exist
+
             if(movieResults.Ratings.length <= 1) {
                 console.log("------------");
                 console.log("Title: " + title);
