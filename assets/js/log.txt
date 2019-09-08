@@ -1,0 +1,36 @@
+------------
+Artist(s): Adele
+Song: Hello
+Album: 25
+Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=34fec81707b24dbf9ffa3f564da328a3------------
+Venue: Riot Fest
+Venue Location: Chicago
+Date of the Event: 2019-09-14T19:00:00------------
+Band: slayer
+Venue: Riot Fest
+Venue Location: Chicago
+Date of the Event: 2019-09-14T19:00:00------------
+Band: slayer
+Venue: Riot Fest
+Venue Location: Chicago
+Date of the Event: 2019-09-14T19:00:00------------
+Band: sting
+Venue: 福岡国際センター
+Venue Location: 福岡市
+Date of the Event: 2019-10-07T19:00:00------------
+Band: india
+Venue: Hi Ibiza
+Venue Location: Sant Josep De Sa Talaia
+Date of the Event: 2019-09-15T23:30:00------------
+Band: sting
+Venue: 福岡国際センター
+Venue Location: 福岡市
+Date of the Event: 2019-10-07T19:00:00------------
+Band: madonna
+Venue: BAM (Brooklyn Academy of Music)
+Venue Location: Brooklyn
+Date of the Event: 2019-09-12T20:30:00------------
+Artist(s): Adele
+Song: Hello
+Album: 25
+Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=34fec81707b24dbf9ffa3f564da328a3
