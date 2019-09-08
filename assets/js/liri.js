@@ -105,17 +105,7 @@ function movieThis(input) {
                 console.log("Language: " + language);
                 console.log("Plot: " + plot);
                 console.log("Featured Actors: " + actors);
-            } else if (movieResults.Ratings[1].Source === "Rotten Tomatoes") {
-                var RottenTomatoes = movieResults.Ratings[1].Value;
-                console.log("------------");
-                console.log("Title: " + title);
-                console.log("Year Of Production: " + year);
-                console.log("IMDB Rating: " + imdb);
-                console.log("Rotten Tomatoes Rating: " + RottenTomatoes);
-                console.log("Filming Location: " + country);
-                console.log("Language: " + language);
-                console.log("Plot: " + plot);
-                console.log("Featured Actors: " + actors);
+            } 
                 fs.appendFile("log.txt", movieResults , function(err) {
                     if(err) {
                     return console.log(err);
