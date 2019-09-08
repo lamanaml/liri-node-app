@@ -113,5 +113,14 @@ function movieThis(input) {
 
 
 function doThis(input) {
-    
-}
+    fs.readFile('random.txt', "utf8", (err, data) => {
+        if (err) {
+            console.error(err)
+            return
+        }
+        var randomArray = data.split(",");
+        input = randomArray[1];
+        spotifyThis(input);
+    })
+};
+
