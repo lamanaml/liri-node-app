@@ -4,19 +4,26 @@
 
 > LIRI is a command-line node app that allows users to enter a query to search Spotify for songs, Bands in Town for concerts, and OMDB for movies and retuns results.
 
-> https://lamanaml.github.io/liri-node-app/
-> https://github.com/lamanaml/liri-node-app
+## GitHub repo and Live site
+https://lamanaml.github.io/liri-node-app/
+
+https://github.com/lamanaml/liri-node-app
 
 ### NPM's used
->Node-Spotify-API
->Axios
->Moment
->DotEnv
->FS
+Node-Spotify-API
+
+Axios
+
+Moment
+
+DotEnv
+
+FS
 
 ### API's used
->OMDB API
->Bands In Town API
+OMDB API
+
+Bands In Town API
 
 
 ### concert-this
