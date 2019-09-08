@@ -3,6 +3,7 @@ var keys = require("./keys.js");
 var fs = require("fs");
 var axios = require('axios');
 var moment = require('moment');
+date = moment()
 
 // import bandsintown
 var omdb = (keys.omdb.id);
@@ -43,7 +44,9 @@ function concertThis(input) {
             .then(function (response) {
             var concertResults = response.data[0]
             for (var i = 0; i < 1; i++ ) {
-                var newConcertResults = "------------" +"\nBand: " + input + "\nVenue: " + concertResults.venue.name + "\nVenue Location: " + concertResults.venue.city + "\nDate of the Event: " + concertResults.datetime
+                var newConcertResults = "------------" +"\nBand: " + input + "\nVenue: " + concertResults.venue.name + "\nVenue Location: " + concertResults.venue.city + "\nDate of the Event: " + moment(concertResults.datetime).format("MMM DD YYYY ")
+                
+
                 }
             console.log(newConcertResults);
             fs.appendFile("log.txt", newConcertResults, function(err) {
